@@ -1,6 +1,5 @@
 from databases.dbs import db
 from flask_cors import CORS
-from flask_jwt_extended import JWTManager
+from private.exts import jwt
 
 cors = CORS(resources={})
-jwt = JWTManager()
